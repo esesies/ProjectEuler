@@ -13,8 +13,15 @@ include_directories(${Project_Euler_SOURCE_DIR}/headers)
 
 set(SOURCE_FILES
         source/main.cpp
+		source/utils.cpp
         source/problem001.cpp
 		source/problem002.cpp
+		source/problem003.cpp
+		source/problem004.cpp
+		source/problem005.cpp
+        source/problem006.cpp
+		source/problem007.cpp
+		source/problem008.cpp
         )
 
 add_executable(Project_Euler ${SOURCE_FILES})

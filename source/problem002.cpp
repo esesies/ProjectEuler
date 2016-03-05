@@ -42,7 +42,6 @@ namespace problem002
 	{
 		std::vector<int> serie;
 		
-
 		serie = getSerie(4000000);
 
 		//Other solution

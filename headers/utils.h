@@ -2,6 +2,7 @@
 #define UTILS_H
 
 #include <algorithm>
+#include <string>
 
 namespace utils
 {
@@ -18,9 +19,17 @@ namespace utils
         return (std::end(v) != std::find(std::begin(v), std::end(v), x));
     }
 
+	//bool isPrime(int num)
+    //Parameters:
+    //  num: the number being checked
+    //Returns:
+    //  true if num is prime, otherwise false
+    bool isPrime(long long num);
 
 
+	std::string invertString(std::string &in);
 
+	bool isPalindrome(int num);
 
 
 
